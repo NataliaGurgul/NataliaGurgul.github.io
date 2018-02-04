@@ -14,3 +14,14 @@ $(document).ready(function() {
       return false;
    });
 });
+
+// buttons
+$(document).ready(function() {
+      $('.contact-button, .exp-button').css('cursor', 'pointer');
+      $('.contact-button, .exp-button').hover(function() { 
+      $('.contact-button, .exp-button').stop().animate( {'opacity': 0.5}, "slow");
+      $(this).stop().animate( {'opacity': 0.5}, "slow"); 
+      },function() { 
+      $('.contact-button, .exp-button').stop().animate( {'opacity': 1}, "slow");
+      });
+   });

@@ -4,19 +4,10 @@ h4 { font-weight: bold; }
 
 a { color: white; }
 	a:hover, a:visited {
-    color: white;
+/*    color: white;*/
     text-decoration: none;
 }  
 .header { padding: 40px; }
-
-.btn-link { 
-	border-radius: 0px; 
-	border-color: black;
-}
-.btn-link:hover {
-	color: white;
-    text-decoration: none;
-}
 
 /*jumbotron*/
 .jumbotron {
@@ -25,6 +16,15 @@ a { color: white; }
     width: 100%;
     min-height: 350px;
 }
+
+/*buttons*/
+.btn-link, .btn-link:hover { background-color: #b5aaae; }
+.contact-button, .exp-button { 
+	border-radius: 0px; 
+	border-color: #b5aaae;
+	background-color: #b5aaae;
+}
+.contact-button:hover, .exp-button:hover { text-decoration: none; }
 
 /*skills section / icons*/
 .material-icons {
