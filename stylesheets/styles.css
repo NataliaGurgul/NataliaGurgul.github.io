@@ -8,7 +8,7 @@ a {
   color: white; }
 
 a:hover, a:visited {
-  /*    color: white;*/
+  color: white;
   text-decoration: none; }
 
 .header {
